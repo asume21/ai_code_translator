@@ -1,35 +1,27 @@
-Proprietary Software License
+Dual License - GNU Affero General Public License v3.0 and Commercial License
 
-Copyright (c) 2025 Asume21. All rights reserved.
+This project is available under either:
 
-This software and associated documentation files (the "Software") are proprietary and confidential. 
-The Software is protected by copyright laws and international copyright treaties, as well as other 
-intellectual property laws and treaties.
+1. GNU Affero General Public License v3.0 (AGPL-3.0)
+   - Free to use, modify, and distribute
+   - Must share modifications under the same license
+   - Must make source code available when running the software as a service
+   - See full terms at: https://www.gnu.org/licenses/agpl-3.0.en.html
 
-1. GRANT OF LICENSE
-   This is a restricted license. No part of this Software may be:
-   - Copied, distributed, or modified without express written permission
-   - Used for commercial purposes without a valid paid license
-   - Reverse engineered, decompiled, or disassembled
+2. Commercial License
+   - For commercial use without AGPL-3.0 requirements
+   - No requirement to share modifications
+   - Priority support and additional features
+   - Contact [Your Contact Information] for commercial licensing
 
-2. RESTRICTIONS
-   You may not:
-   - Sell, lease, license, or sublicense the Software
-   - Use the Software for commercial purposes without authorization
-   - Create derivative works based on the Software
-   - Copy or reproduce any part of the Software
-   - Remove or modify any proprietary notices or labels on the Software
+Choose the license that best fits your needs. The AGPL-3.0 is perfect for:
+- Open source projects
+- Academic research
+- Personal use
+- Community contributions
 
-3. NO WARRANTY
-   The Software is provided "AS IS" without warranty of any kind.
-
-4. LIMITATION OF LIABILITY
-   In no event shall the authors or copyright holders be liable for any claim,
-   damages or other liability arising from the use of the Software.
-
-5. TERMINATION
-   This license is effective until terminated. Your rights under this license
-   will terminate automatically without notice if you fail to comply with any
-   term(s) of this license.
-
-For licensing inquiries, please contact: [Your Contact Information]
+The Commercial License is designed for:
+- Commercial applications
+- Proprietary software
+- Companies wanting additional support and features
+- Those who cannot comply with AGPL-3.0 terms

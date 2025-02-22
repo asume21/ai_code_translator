@@ -1,18 +1,20 @@
 # AI Code Translator
 
-**PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED**
+A powerful open-source code translation model built on top of CodeT5, capable of translating code between different programming languages. Available under both AGPL-3.0 (open-source) and commercial licenses.
 
-This is a commercial product. Usage requires a valid license. Contact [Your Contact Information] for licensing inquiries.
+## 🌟 Community & Commercial Use
 
-A powerful code translation model built on top of CodeT5, capable of translating code between different programming languages.
+This project is dual-licensed:
+- **Open Source**: Free under AGPL-3.0 for open-source projects, research, and personal use
+- **Commercial**: Flexible commercial licensing available for business use
 
-## Features
+## ✨ Features
 
-- Multi-language code translation support
-- Memory-efficient training pipeline
-- Support for multiple dataset formats
-- Gradient accumulation for training on limited hardware
-- Automatic dataset preprocessing
+- Accurate code translation between multiple programming languages
+- Preservation of code structure and style
+- Built-in code analysis and validation
+- Extensible architecture for adding new languages
+- Community-driven improvements and extensions
 
 ## Requirements
 
@@ -79,9 +81,16 @@ The model is trained on a combination of:
 - Code Alpaca
 - CodeSearchNet (Python, Java, JavaScript)
 
-## Contributing
+## 🤝 Contributing
 
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions! Here's how you can help:
+- Report bugs and suggest features
+- Submit pull requests
+- Improve documentation
+- Add support for new programming languages
+- Share your success stories
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Optimizations
 
@@ -91,9 +100,19 @@ The project includes several optimizations for training on consumer-grade hardwa
 - Dynamic batch sizing
 - Automatic memory management
 
+## 💼 Commercial Support
+
+Need to use this project in a commercial product? Our commercial license includes:
+- Priority support
+- Additional features
+- Custom development
+- No AGPL requirements
+
+Contact [Your Contact Information] for details.
+
 ## License
 
-MIT License
+AGPL-3.0
 
 ## Acknowledgments
 
