@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Script to download large data files from Google Drive.
+Requires a valid API key for access.
 """
 import os
 import sys
@@ -35,8 +36,21 @@ def download_file(file_id, output_path):
         print(f"Error downloading {output_path}: {e}")
         return False
 
+def verify_api_key(api_key):
+    """Verify if the provided API key is valid."""
+    # TODO: Implement your API key verification logic
+    if not api_key or api_key == "YOUR_API_KEY":
+        print("Error: Valid API key required.")
+        print("Please contact [Your Contact Information] to obtain a license and API key.")
+        sys.exit(1)
+    return True
+
 def main():
     """Main function to download all required files."""
+    # Check for API key
+    api_key = os.getenv("AI_TRANSLATOR_API_KEY", "")
+    verify_api_key(api_key)
+    
     # Get the project root directory
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent

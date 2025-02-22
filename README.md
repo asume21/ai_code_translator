@@ -1,5 +1,9 @@
 # AI Code Translator
 
+**PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED**
+
+This is a commercial product. Usage requires a valid license. Contact [Your Contact Information] for licensing inquiries.
+
 A powerful code translation model built on top of CodeT5, capable of translating code between different programming languages.
 
 ## Features
