@@ -1,0 +1,380 @@
+[
+  {
+    "timestamp": "2025-02-21T20:16:10.894075",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:17:28.753351",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:18:53.548488",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:19:51.835988",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:20:51.071607",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:21:35.974073",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:22:28.292292",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:23:08.228079",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:23:49.037555",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:24:35.941329",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:25:04.333198",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:25:51.666061",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:26:40.947400",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:27:29.229634",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:28:01.749870",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:30:27.868315",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:30:59.235364",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:31:31.757499",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:32:06.927222",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:32:48.495833",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:33:34.361795",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:34:11.893013",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:56:02.016974",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:56:47.195106",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:57:14.447297",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:57:55.171035",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:58:29.323440",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:58:55.034360",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T20:59:38.687252",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:11:45.129501",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:12:16.238039",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:12:41.891891",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:13:10.359802",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:13:45.683508",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:14:08.591779",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:14:40.313579",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:15:11.366292",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:15:58.363325",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:24:16.099596",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T21:25:11.976425",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T22:26:00.374219",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  },
+  {
+    "timestamp": "2025-02-21T22:26:54.509188",
+    "source_code": "\nclass Calculator:\n    \"\"\"A simple calculator class.\"\"\"\n    \n    def __init__(self):\n        self.result = 0\n    \n    def add(self, x: int, y: int) -> int:\n        \"\"\"Add two numbers.\"\"\"\n        return x + y\n    \n    def subtract(self, x: int, y: int) -> int:\n        \"\"\"Subtract two numbers.\"\"\"\n        return x - y\n",
+    "original_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "corrected_translation": "\nclass Calculator {\n    constructor() {\n        this.result = 0;\n    }\n    \n    add(x, y) {\n        return x + y;\n    }\n    \n    subtract(x, y) {\n        return x - y;\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript",
+    "metadata": {}
+  }
+]

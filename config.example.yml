@@ -1,0 +1,33 @@
+# AI Code Translator Configuration
+
+# GUI Settings
+gui:
+  theme: "cyborg"  # ttkbootstrap theme
+  window:
+    width: 1200
+    height: 800
+    title: "AI Code Translator"
+
+# Logging Settings
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "code_translator.log"
+
+# Model Settings
+model:
+  embedding_dim: 256
+  hidden_dim: 512
+  vocab_size: 10000
+
+# Supported Languages
+languages:
+  - python
+  - javascript
+  - java
+  - cpp
+  - ruby
+  - go
+  - typescript
+  - tensorflow
+  - paddle

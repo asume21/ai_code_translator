@@ -1,0 +1,20 @@
+[
+  {
+    "source_code": "\ndef calculate_sum(a, b):\n    result = a + b\n    return result\n",
+    "target_code": "\nfunction calculateSum(a, b) {\n    let result = a + b;\n    return result;\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript"
+  },
+  {
+    "source_code": "\nclass Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    \n    def greet(self):\n        print(f\"Hello, my name is {self.name} and I am {self.age} years old.\")\n",
+    "target_code": "\nclass Person {\n    constructor(name, age) {\n        this.name = name;\n        this.age = age;\n    }\n    \n    greet() {\n        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);\n    }\n}\n",
+    "source_lang": "python",
+    "target_lang": "javascript"
+  },
+  {
+    "source_code": "\nimport tensorflow as tf\n\nmodel = tf.keras.Sequential([\n    tf.keras.layers.Conv2D(32, 3, activation='relu', input_shape=(28, 28, 1)),\n    tf.keras.layers.MaxPooling2D(),\n    tf.keras.layers.Flatten(),\n    tf.keras.layers.Dense(128, activation='relu'),\n    tf.keras.layers.Dropout(0.2),\n    tf.keras.layers.Dense(10, activation='softmax')\n])\n",
+    "target_code": "\nimport paddle\n\nmodel = paddle.nn.Sequential(\n    paddle.nn.Conv2D(1, 32, kernel_size=3),\n    paddle.nn.ReLU(),\n    paddle.nn.MaxPool2D(kernel_size=2),\n    paddle.nn.Flatten(),\n    paddle.nn.Linear(in_features=5408, out_features=128),\n    paddle.nn.ReLU(),\n    paddle.nn.Dropout(p=0.2),\n    paddle.nn.Linear(in_features=128, out_features=10),\n    paddle.nn.Softmax()\n)\n",
+    "source_lang": "tensorflow",
+    "target_lang": "paddle"
+  }
+]

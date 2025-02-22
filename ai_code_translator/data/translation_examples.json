@@ -1,0 +1,32 @@
+{"examples": [
+  {
+    "id": 0,
+    "Python": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)",
+    "C": "int factorial(int n) {\n    if (n == 0)\n        return 1;\n    return n * factorial(n - 1);\n}"
+  },
+  {
+    "id": 1,
+    "Python": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)",
+    "C": "int fibonacci(int n) {\n    if (n <= 1)\n        return n;\n    return fibonacci(n-1) + fibonacci(n-2);\n}"
+  },
+  {
+    "id": 2, 
+    "Python": "def sum_array(arr):\n    total = 0\n    for num in arr:\n        total += num\n    return total",
+    "C": "int sum_array(int arr[], int size) {\n    int total = 0;\n    for(int i = 0; i < size; i++) {\n        total += arr[i];\n    }\n    return total;\n}"
+  },
+  {
+    "id": 3,
+    "Python": "def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True",
+    "C": "int is_prime(int n) {\n    if (n < 2)\n        return 0;\n    for(int i = 2; i <= sqrt(n); i++) {\n        if (n % i == 0)\n            return 0;\n    }\n    return 1;\n}"
+  },
+  {
+    "id": 4,
+    "Python": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1",
+    "C": "int binary_search(int arr[], int size, int target) {\n    int left = 0;\n    int right = size - 1;\n    while (left <= right) {\n        int mid = (left + right) / 2;\n        if (arr[mid] == target)\n            return mid;\n        else if (arr[mid] < target)\n            left = mid + 1;\n        else\n            right = mid - 1;\n    }\n    return -1;\n}"
+  },
+  {
+    "id": 637,
+    "Python": "import tensorflow as tf\nfrom d2l import tensorflow as d2l\nclass MultiHeadAttention(tf.keras.layers.Layer):\n    def __init__(self, key_size, query_size, value_size, num_hiddens, num_heads, dropout, bias=False, **kwargs):\n        super().__init__(**kwargs)\n        self.num_heads = num_heads\n        self.attention = d2l.DotProductAttention(dropout)\n        self.W_q = tf.keras.layers.Dense(num_hiddens, use_bias=bias)\n        self.W_k = tf.keras.layers.Dense(num_hiddens, use_bias=bias)\n        self.W_v = tf.keras.layers.Dense(num_hiddens, use_bias=bias)\n        self.W_o = tf.keras.layers.Dense(num_hiddens, use_bias=bias)\n    def call(self, queries, keys, values, valid_lens, **kwargs):\n        queries = transpose_qkv(self.W_q(queries), self.num_heads)\n        keys = transpose_qkv(self.W_k(keys), self.num_heads)\n        values = transpose_qkv(self.W_v(values), self.num_heads)\n        if valid_lens is not None:\n            valid_lens = tf.repeat(valid_lens, repeats=self.num_heads, axis=0)\n        output = self.attention(queries, keys, values, valid_lens, **kwargs)\n        output_concat = transpose_output(output, self.num_heads)\n        return self.W_o(output_concat)",
+    "C": "import paddle\nfrom paddle import nn\nclass MultiHeadAttention(nn.Layer):\n    def __init__(self, key_size, query_size, value_size, num_hiddens, num_heads, dropout, bias=False, **kwargs):\n        super(MultiHeadAttention, self).__init__(**kwargs)\n        self.num_heads = num_heads\n        self.attention = d2l.DotProductAttention(dropout)\n        self.W_q = nn.Linear(query_size, num_hiddens, bias_attr=bias)\n        self.W_k = nn.Linear(key_size, num_hiddens, bias_attr=bias)\n        self.W_v = nn.Linear(value_size, num_hiddens, bias_attr=bias)\n        self.W_o = nn.Linear(num_hiddens, num_hiddens, bias_attr=bias)\n    def forward(self, queries, keys, values, valid_lens):\n        queries = transpose_qkv(self.W_q(queries), self.num_heads)\n        keys = transpose_qkv(self.W_k(keys), self.num_heads)\n        values = transpose_qkv(self.W_v(values), self.num_heads)\n        if valid_lens is not None:\n            valid_lens = paddle.repeat_interleave(valid_lens, repeats=self.num_heads, axis=0)\n        output = self.attention(queries, keys, values, valid_lens)\n        output_concat = transpose_output(output, self.num_heads)\n        return self.W_o(output_concat)"
+  }
+]}
