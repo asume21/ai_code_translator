@@ -12,3 +12,4 @@ wandb>=0.15.0  # For experiment tracking
 accelerate>=0.20.0  # For distributed training
 einops>=0.6.0  # For tensor operations
 sentencepiece>=0.1.99  # For T5 tokenization
+gdown>=4.7.1

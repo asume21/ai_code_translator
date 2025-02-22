@@ -25,6 +25,28 @@ cd ai_code_translator
 pip install -r requirements.txt
 ```
 
+## Dataset Setup
+
+The project uses several large dataset files that are stored separately from the code repository. To download the required datasets:
+
+1. Install the project requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the data download script:
+   ```bash
+   python scripts/download_data.py
+   ```
+
+This will automatically download and place the following files in their correct locations:
+- `data/codetransocean/nichetrans/niche_test.json`
+- `data/codetransocean/nichetrans/niche_train.json`
+- `data/codetransocean/nichetrans/niche_valid.json`
+- `data/codetransocean/multilingualtrans/multilingual_train.json`
+
+If you encounter any issues with the automatic download, you can manually download the files from [Google Drive](https://drive.google.com/drive/folders/1RcLRBJ-4gwZ5DSDEgEhgk8eWbz_yGOxk?usp=drive_link).
+
 ## Usage
 
 ### Training
