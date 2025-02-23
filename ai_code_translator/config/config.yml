@@ -1,0 +1,39 @@
+training:
+  batch_size: 32
+  num_epochs: 20
+  learning_rate: 1e-5
+  mixed_precision: true
+  save_steps: 500
+  continue_on_error: false
+  patience: 5
+  min_delta: 0.001
+  max_grad_norm: 1.0
+  gradient_log_steps: 100
+  weight_decay: 0.01
+  min_lr: 1e-7
+  augmentation_prob: 0.3
+  stochastic_weight_averaging: false
+  swa_lr: 1e-2
+  swa_start_epoch: 5
+  persistent_workers: true
+  num_workers: 4
+
+optimization:
+  dropout: 0.2
+  attention_dropout: 0.1
+
+model:
+  model_name: "Salesforce/codet5-base"
+  max_length: 512
+  device: "cuda"
+  config:
+    dropout: 0.2
+    attention_dropout: 0.1
+    label_smoothing: 0.1
+
+data:
+  train_path: "C:\\Users\\ralsu\\aithink\\data\\CodeTransOcean\\CodeTrans Datasets\\NicheTrans\\niche_train.json"
+  val_path: "C:\\Users\\ralsu\\aithink\\data\\CodeTransOcean\\CodeTrans Datasets\\NicheTrans\\niche_valid.json"
+  test_path: "C:\\Users\\ralsu\\aithink\\data\\CodeTransOcean\\CodeTrans Datasets\\NicheTrans\\niche_test.json"
+  source_lang: "Ada"
+  target_lang: "C#"

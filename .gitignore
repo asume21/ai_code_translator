@@ -31,24 +31,31 @@ ENV/
 *.swp
 *.swo
 
-# Training artifacts
-checkpoints/
-runs/
-wandb/
-*.pt
-*.pth
-*.ckpt
+# Project specific
+source_repos/
+CodeGen/
+datasets/
+evaluation_results/
+notebooks/
+.env
 
-# Datasets
-data/apps/
-data/code_alpaca/
-data/codesearchnet/
+# Large data files
+*.pkl
+*.h5
+*.pt
+*.bin
+*.model
 
 # Logs
 *.log
+wandb/
+runs/
 logs/
-tensorboard/
 
-# OS
+# Test coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
 .DS_Store
-Thumbs.db

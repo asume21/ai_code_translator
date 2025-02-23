@@ -1,120 +1,97 @@
 # AI Code Translator
 
-A powerful open-source code translation model built on top of CodeT5, capable of translating code between different programming languages. Available under both AGPL-3.0 (open-source) and commercial licenses.
+An advanced AI system for translating code between multiple programming languages.
 
-## 🌟 Community & Commercial Use
+## Features
 
-This project is dual-licensed:
-- **Open Source**: Free under AGPL-3.0 for open-source projects, research, and personal use
-- **Commercial**: Flexible commercial licensing available for business use
+- Multi-language support (Python, JavaScript, Java, C++, Go, Rust)
+- High-quality algorithm translations
+- Modern code pattern support
+- Extensive test suite
+- Easy-to-use API
 
-## ✨ Features
+## Dataset
 
-- Accurate code translation between multiple programming languages
-- Preservation of code structure and style
-- Built-in code analysis and validation
-- Extensible architecture for adding new languages
-- Community-driven improvements and extensions
+The training dataset includes:
+- 67 implementation groups across 6 languages
+- Common algorithms and data structures
+- Modern programming patterns
+- Validated and cleaned code examples
 
-## Requirements
-
-- Python 3.8+
-- PyTorch 2.0+
-- CUDA compatible GPU (tested on NVIDIA GTX 1050 Ti)
-- 8GB+ RAM
-
-## Installation
+## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/ai_code_translator.git
-cd ai_code_translator
+# Clone the repository
+git clone https://github.com/yourusername/ai-code-translator.git
+cd ai-code-translator
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Build the dataset
+python -m ai_code_translator.dataset_builder
+
+# Train the model
+python -m ai_code_translator.train
 ```
 
-## Dataset Setup
+## Project Structure
 
-The project uses several large dataset files that are stored separately from the code repository. To download the required datasets:
-
-1. Install the project requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Run the data download script:
-   ```bash
-   python scripts/download_data.py
-   ```
-
-This will automatically download and place the following files in their correct locations:
-- `data/codetransocean/nichetrans/niche_test.json`
-- `data/codetransocean/nichetrans/niche_train.json`
-- `data/codetransocean/nichetrans/niche_valid.json`
-- `data/codetransocean/multilingualtrans/multilingual_train.json`
-
-If you encounter any issues with the automatic download, you can manually download the files from [Google Drive](https://drive.google.com/drive/folders/1RcLRBJ-4gwZ5DSDEgEhgk8eWbz_yGOxk?usp=drive_link).
+```
+ai_code_translator/
+├── ai_code_translator/      # Main package
+│   ├── data/               # Datasets
+│   ├── config/             # Configuration
+│   ├── model.py            # Neural network model
+│   ├── train.py            # Training script
+│   └── utils/              # Utility functions
+├── tests/                  # Test suite
+├── examples/               # Usage examples
+└── docs/                   # Documentation
+```
 
 ## Usage
-
-### Training
-
-```bash
-python scripts/train.py
-```
-
-### Translation
 
 ```python
 from ai_code_translator import CodeTranslator
 
+# Initialize translator
 translator = CodeTranslator()
-translated_code = translator.translate(
-    source_code="print('Hello World')",
+
+# Translate Python to JavaScript
+js_code = translator.translate(
+    source_code="def factorial(n):\n    return 1 if n < 2 else n * factorial(n-1)",
     source_lang="python",
     target_lang="javascript"
 )
+
+print(js_code)
 ```
 
-## Datasets
+## Training Data
 
-The model is trained on a combination of:
-- Apps Dataset
-- Code Alpaca
-- CodeSearchNet (Python, Java, JavaScript)
+The model is trained on:
+- Algorithm implementations
+- Data structure operations
+- Common programming patterns
+- Modern language features
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Here's how you can help:
-- Report bugs and suggest features
-- Submit pull requests
-- Improve documentation
-- Add support for new programming languages
-- Share your success stories
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## Optimizations
-
-The project includes several optimizations for training on consumer-grade hardware:
-- Memory-efficient data loading
-- Gradient accumulation
-- Dynamic batch sizing
-- Automatic memory management
-
-## 💼 Commercial Support
-
-Need to use this project in a commercial product? Our commercial license includes:
-- Priority support
-- Additional features
-- Custom development
-- No AGPL requirements
-
-Contact [Your Contact Information] for details.
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
 
-AGPL-3.0
+MIT License - see LICENSE file for details
 
-## Acknowledgments
+## Roadmap
 
-- Based on Salesforce's CodeT5 model
-- Inspired by various code translation projects in the community
+- [ ] Add more language support
+- [ ] Improve translation accuracy
+- [ ] Add web interface
+- [ ] Support more code patterns
+- [ ] Enhance documentation
