@@ -14,6 +14,7 @@ A modern GUI application for translating code between different programming lang
 - Enhanced PyTorch model with attention mechanism
 - Improved training process with early stopping and validation
 - Astutely chatbot integration for interactive assistance
+- Optional API integration for enhanced conversational capabilities
 
 ## Chatbot Integration
 
@@ -23,8 +24,26 @@ The AI Code Translator now includes "Astutely", an interactive chatbot that can:
 - Provide explanations of translation processes
 - Accept code directly in the chat for translation
 - Guide users through the translation process
+- Utilize external API integration for more natural conversations (optional)
 
 The chatbot is integrated into the GUI through a tabbed interface, allowing users to switch between direct translation and conversational interaction.
+
+### Advanced Chatbot Features
+
+Astutely now supports two modes of operation:
+
+1. **Basic Mode**: Uses rule-based pattern matching for responses (no external dependencies)
+2. **Advanced Mode**: Connects to OpenAI's API for more natural, context-aware conversations
+
+To enable Advanced Mode:
+- Set the `OPENAI_API_KEY` environment variable with your API key
+- The application will automatically detect the key and use the advanced chatbot
+
+Advanced Mode benefits:
+- Maintains conversation context
+- Provides more natural and informative responses
+- Better understands user intent
+- Handles complex questions about programming languages
 
 ## Project Structure
 
