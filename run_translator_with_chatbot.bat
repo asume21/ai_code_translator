@@ -1,0 +1,3 @@
+@echo off
+echo Starting AI Code Translator with Astutely Chatbot...
+C:\Users\ralsu\AppData\Local\Programs\Python\Python313\python.exe simple_gui.py
