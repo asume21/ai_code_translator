@@ -149,21 +149,37 @@ class SimpleTranslatorGUI:
             # Translate the code
             self.translate()
         else:
-            # Switch to translator tab anyway
-            self.notebook.select(0)
+            # If no code was found but the message mentions translation
+            if "translate" in message.lower():
+                # Switch to translator tab anyway
+                self.notebook.select(0)
+                self.status_var.set("Ready for code translation")
     
     def extract_code_from_message(self, message):
         """Extract code from a chat message."""
-        # Look for code blocks
+        # Look for code blocks with triple backticks
         if "```" in message:
             parts = message.split("```")
             if len(parts) >= 3:
-                return parts[1].strip()
+                # Get the content between the first pair of triple backticks
+                code = parts[1].strip()
+                if code:
+                    return code
         
-        # If no code blocks, try to extract multi-line code
+        # If no code blocks with backticks, check if the message itself looks like code
         lines = message.split("\n")
         if len(lines) > 3:
-            return "\n".join(lines)
+            # Check if it has Python-like syntax
+            python_indicators = ["def ", "class ", "import ", "for ", "while ", "if ", "print(", "#", "=", "return "]
+            code_line_count = 0
+            
+            for line in lines:
+                if any(indicator in line for indicator in python_indicators):
+                    code_line_count += 1
+            
+            # If at least 30% of lines look like Python code
+            if code_line_count >= len(lines) * 0.3:
+                return message
         
         return None
 
